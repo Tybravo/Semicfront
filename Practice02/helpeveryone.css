@@ -250,8 +250,95 @@ border-radius: 20px;
     margin-left: 90px;
 }
 
-.buyFood{
-    /* display: flex;
-    width:100%; */
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rectangle{
+    display: flex;
+    width: 1148px;
+    height: 323px;
+    top: 2790px;
+    left: 146px;
+    gap: 0px;
+    border: 12px 0px 0px 0px;
+    opacity: 0px; 
+    background-color: #2995E2;   
+}
 
+.div34{
+    width: 457px;
+    height: 313px;
+    margin-top: 100px;
+    margin-left: 100px;
+    left: 234px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.special{
+    width: Hug (286px)px;
+    height: Hug (209px)px;
+    top: 2852px;
+    left: 831px;
+    gap: 18px;
+    opacity: 0px;
+}
+
+.special p{
+    width: 386px;
+    height: 132px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Cairo;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 65.59px;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 95px;
+}
+
+
+.div35{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(12, 12, 12);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#FFFFFF;   
+    border-color: rgba(0, 106, 255, 0.74);
+    margin-left: 80px;
+}
+
+#container{
+    display: flex;
+    width: 1180px;
+    height: 500px;
+    gap: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #2995E2;
+    opacity: 0px;    
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.inner-box{
+    display: flex;
+    width: 900px;
+    height: 460px;
+    opacity: 0px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #2995E2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    
+    
 }
