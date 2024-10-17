@@ -191,7 +191,6 @@ border-radius: 20px;
 
 .div26{
     font-family: sans-serif;
-    
 }
 
 .div27{
@@ -204,7 +203,6 @@ border-radius: 20px;
     padding-right: 10px;
     background-color:rgba(0, 106, 255, 0.74);
     border-color: rgba(0, 106, 255, 0.74);
-    
 }
 
 .div28{
@@ -328,17 +326,37 @@ border-radius: 20px;
     margin-left: 20px;
 }
 
-.inner-box{
-    display: flex;
-    width: 900px;
+ .inner-box{
+    /* display: flex; */
+    width: 1140px;
     height: 460px;
     opacity: 0px;
     border-width: 3px;
     border-style: solid;
     border-color: #2995E2;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 120px;
-    
-    
+    margin:20px;
+}
+
+.formhead1 {
+    width: 306px;
+    height: 47px;
+    display: block;
+    opacity: 1; 
+    font-family: Cairo;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 46.85px;
+    text-align: left;
+}
+
+.formhead2 {
+    width: 652px;
+    height: 36px;
+    display: block; 
+    opacity: 1;
+    font-family: Cairo;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 35.61px;
+    text-align: left;
 }
