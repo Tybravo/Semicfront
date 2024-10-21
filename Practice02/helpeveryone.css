@@ -9,22 +9,24 @@
 }
 
 .div2{
-    margin: 15px;
+    /* margin: 15px; */
+    margin-bottom: 30px;
     padding: 15px;
     font-size:x-large;
 }
 
 .div3{
-    margin: 15px;
+    margin-left: -60px;
+    margin-top: 10px;
     display: inline;
-    font-family: sans-serif;
-    color: rgba(0, 72, 255, 0.685);
+    font-family: Cairo;
+    color: #2995E2;
 }
 
 .div4 li{
     display: inline;
     justify-content: center;
-    font-family: sans-serif;
+    font-family: Cairo;
     font-size: large;
     color:black;
     padding-right: 45px;
@@ -34,28 +36,48 @@
 
 .div5{
 padding: 15px;
-border-radius: 20px;
-
+border-radius: 2px;
 }
 
 .div6{
     display: flex;
     display: inline-block;
     padding: 50px;
-    padding-left: 110px;
-    
-
-
-    
+    padding-left: 110px;  
 }
 
-.div8{
-    font-family: sans-serif;
-    font-size: 20px;
+.div9{
+    margin-top:-40px;
+    margin-bottom: 40px;
 }
+
+.div8 p{
+    font-family: Cairo;
+    font-size: 60px;
+    margin-top: -30px;
+}
+
+.div8 span{
+    font-family: Cairo;
+    font-size: 60px;
+    color: #2995E2;
+}
+
+.div8a p{
+    font-family: Cairo;
+    font-size: 60px;
+    margin-top: -80px;
+}
+
+.div8a span{
+    font-family: Cairo;
+    font-size: 60px;
+    color: #2995E2;
+}
+
 
 .div10{
-    font-family: sans-serif;
+    font-family: Cairo;
     font-size: 15px;
     color: white;
     padding-top: 10px;
@@ -69,7 +91,7 @@ border-radius: 20px;
 
 
 .div11{
-    font-family: sans-serif;
+    font-family: Cairo;
     font-size: 15px;
     color: black;
     padding-top: 10px;
@@ -78,8 +100,6 @@ border-radius: 20px;
     padding-right: 10px;
     background-color: white;
     border-color: white;
-
-
 }
 
 
@@ -87,20 +107,20 @@ border-radius: 20px;
     padding-top: 50px;
     padding-right: 110px;
     float: right;
-    
-
 }
 
 .unto{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     padding-left: 250px;
     padding-top: 50px;
+    margin-left: 120px;
 }
 
 .div14{
-    font-family: sans-serif;
+    font-family: Cairo;
     font-size: 15px;
+    text-align: center;
 }
 
 .into{
@@ -122,7 +142,7 @@ border-radius: 20px;
 }
 
 .div17{
-    font-family: sans-serif;
+    font-family: Cairo;
     font-size: 20px;
     color: rgba(0, 106, 255, 0.74);
     padding-left: 25px;
@@ -145,18 +165,18 @@ border-radius: 20px;
 }
 
 .div20{
-    font-family: sans-serif;
+    font-family: Cairo;
     font-size: 12px;
     
 }
 
 .div21{
-    font-family: sans-serif;
+    font-family: Cairo;
     
 }
 
 .div22{
-    font-family: sans-serif;
+    font-family: Cairo;
     font-size: 15px;
     color: white;
     padding-top: 10px;
@@ -184,17 +204,17 @@ border-radius: 20px;
 }
 
 .div25{
-    font-family: sans-serif;
+    font-family: Cairo;
     font-size: 12px;
     
 }
 
 .div26{
-    font-family: sans-serif;
+    font-family: Cairo;
 }
 
 .div27{
-    font-family: sans-serif;
+    font-family: Cairo;
     font-size: 15px;
     color: white;
     padding-top: 10px;
@@ -226,11 +246,11 @@ border-radius: 20px;
 }
 
 .div31{
-    font-family: sans-serif;
+    font-family: Cairo;
 }
 
 .div32{
-    font-family: sans-serif;
+    font-family: Cairo;
     font-size: 15px;
     color: white;
     padding-top: 10px;
@@ -297,11 +317,12 @@ border-radius: 20px;
     text-align: left;
     margin-left: 80px;
     margin-top: 95px;
+    color: #FFFFFF;
 }
 
 
 .div35{
-    font-family: sans-serif;
+    font-family: Cairo;
     font-size: 15px;
     color: rgb(12, 12, 12);
     padding-top: 10px;
@@ -313,14 +334,16 @@ border-radius: 20px;
     margin-left: 80px;
 }
 
+
+
 #container{
     display: flex;
     width: 1180px;
     height: 500px;
     gap: 10px;
-    border-width: 3px;
+    /* border-width: 3px;
     border-style: solid;
-    border-color: #2995E2;
+    border-color: #2995E2; */
     opacity: 0px;    
     margin-top: 120px;
     margin-left: 20px;
@@ -331,9 +354,6 @@ border-radius: 20px;
     width: 1140px;
     height: 460px;
     opacity: 0px;
-    border-width: 3px;
-    border-style: solid;
-    border-color: #2995E2;
     margin:20px;
 }
 
@@ -363,12 +383,9 @@ border-radius: 20px;
 
 .textbox{
     width: 1140px;
-    height: 531px;
+    height: auto;
     gap: 32px;
     opacity: 0px;
-    border-width: 3px;
-    border-style: solid;
-    border-color: #2995E2;  
 }
 
 .recbox1 {
@@ -377,9 +394,7 @@ border-radius: 20px;
     display: flex;
     justify-content: space-between;
     gap: 38px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #2995E2;  
+    margin-top: 30px;
 }
 
 #textbox1 {
@@ -407,3 +422,180 @@ border-radius: 20px;
     border: 1px solid #999999;
     opacity: 1; 
 }
+
+.input-group select {
+    width: 530px;
+    height: 65px;
+    padding: 0px 0px 0px 17px;
+    border: 1px solid #999999;
+    opacity: 1; 
+}
+
+.formButton{
+    height: 45px;
+    font-family: Cairo;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#2995E2;  
+    border-color: rgba(0, 106, 255, 0.74);
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 540px;
+    margin-top: 62px;
+}
+
+
+
+#foot-container{
+    display: flex;
+    width: 1180px;
+    height: 300px;
+    gap: 10px;
+    opacity: 0px;    
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.footer-leftbox{
+    width: 193.94px;
+    height: 133px;
+    gap: 15px;
+    opacity: 0px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.div36{
+    margin-left: -15px;
+    margin-bottom: 30px;
+    padding: 15px;
+    font-size:x-large;
+}
+
+.div37 p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 18px;
+    font-family: Cairo;
+    color: #2995E2;
+}
+
+.div38{
+    width: 166px;
+    height: 72px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.div38 p{
+    font-family: Cairo;
+    margin-top: -55px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;    
+}
+
+.div38 p span{
+    color: #2995E2;
+}
+
+.footer-rightbox{
+    display: flex;
+    width: 580px;
+    height: 240px;
+    gap: 15px;
+    opacity: 0px;
+    margin-top: 30px;
+    margin-left: 380px;
+}
+
+.service{
+margin-left: 5px;
+}
+
+.info{
+margin-left: 90px;
+}
+
+.office{
+    margin-left: 90px;
+}
+
+.services #serve{
+    font-family: Cairo;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info #inf{
+    font-family: Cairo;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.office #offi{
+    font-family: Cairo;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+#centre-alignment{
+    margin-top:30px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;    
+    border: 1px solid #C9C9C9
+}
+
+
+#base-contanier{
+    display: inline-block;
+    width: 1180px;
+    height: 25px;
+    opacity: 0px;    
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 5px;;
+
+}
+
+.base-left p{
+    font-family: Cairo;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29.98px;
+    text-align: left;
+    color: #878787; 
+    float: left; 
+    margin-top: auto;
+}
+
+.base-right p{
+    font-family: Cairo;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29.98px;
+    text-align: right;
+    color: #878787;
+    float:right;
+    margin-top: auto;
+}
+
+.base-right span{
+    font-family: Cairo;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 29.98px;
+    text-align: left;   
+    color: #2995E2;
+}
+
+
+
