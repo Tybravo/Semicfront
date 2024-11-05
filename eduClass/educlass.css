@@ -106,6 +106,8 @@ li .Active{
     line-height: 48.4px;
     letter-spacing: -0.01em;
     text-align: left;
+    color: #063852;
+
 }
 
 .mordern p span{
@@ -226,12 +228,13 @@ li .Active{
 
 .empowerStudents p{
     font-family: Poppins;
-    font-size: 37px;
+    font-size: 34px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 38px;
     letter-spacing: -0.01em;
     text-align: left;  
-    margin-top: -5px;  
+    margin-top: -5px; 
+    color: #063852;
 }
 
 .helpTeachers{
@@ -242,6 +245,18 @@ li .Active{
     border-width: 2px;
     border-style: solid;
     border-color: #2995E2;
+}
+
+.helpTeachers p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.1px;
+    letter-spacing: -0.005em;
+    text-align: left;  
+    margin-top:7px;
+    color: #9EA3AE;
+
 }
 
 .schoolsRectangle{
@@ -257,6 +272,7 @@ li .Active{
 }
 
 .schools{
+    display: flex;
     width: 120px;
     height: 63px;
     margin-top: 2px;
@@ -266,7 +282,39 @@ li .Active{
     border-color: #2995E2;
 }
 
+.schools img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.schools .schIndex{
+    display:block;
+    margin-left: 5px;
+}
+
+.schools .schIndex #indexOne{
+    margin-top: 7px;
+    margin-left: 2px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #2374EE;
+}
+
+.schools .schIndex #indexTwo{
+    margin-top: 0px;
+    margin-left: 2px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: -0.005em;
+    text-align: left;
+}
+ 
 .users{
+    display:flex;
     width: 120px;
     height: 63px;
     margin-top: 2px;
@@ -274,9 +322,41 @@ li .Active{
     border-width: 2px;
     border-style: solid;
     border-color: #2995E2;
+}
+
+.users img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.users .userIndex{
+    display:block;
+    margin-left: 8px;
+}
+
+.users .userIndex #indexOne{
+    margin-top: 7px;
+    margin-left: 2px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #2374EE;
+}
+
+.users .userIndex #indexTwo{
+    margin-top: 0px;
+    margin-left: 2px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: -0.005em;
+    text-align: left;
 }
 
 .cities{
+    display: flex;
     width: 120px;
     height: 63px;
     margin-top: 2px;
@@ -285,6 +365,37 @@ li .Active{
     border-width: 2px;
     border-style: solid;
     border-color: #2995E2;
+}
+
+.cities img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cities .cityIndex{
+    display:block;
+    margin-left: 10px;
+}
+
+.cities .cityIndex #indexOne{
+    margin-top: 7px;
+    margin-left: 2px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #2374EE;
+}
+
+.cities .cityIndex #indexTwo{
+    margin-top: 0px;
+    margin-left: 2px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: -0.005em;
+    text-align: left;
 }
 
 .learnMoreBtn button{
